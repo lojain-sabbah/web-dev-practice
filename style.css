@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#e8f0e0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2d4a1e;
+    color: rgb(254, 254, 254);
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* اسمك أكبر */
+header h1 {
+    font-size: 42px;
+    font-weight: bold;
+} 
+
+/* Software Engineering Student أكبر وأغمق */
+header p {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(255, 253, 253);
+}
+
+section {
+    background-color: #4e683f;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+section:hover {
+    background-color: #78a87a;
+}
+
+/* صورة الدورة */
+img {
+    width: 80%;
+    border-radius: 12px;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+#skills {
+    width: 300px; /* غيريه حسب ذوقك */
+}
+#courses {
+    width: auto;
+}
+footer {
+    background-color: #1a2d12;
+    text-align: center;
+    padding: 15px;
+}
+
+/* GitHub أكبر وأغمق */
+footer p {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
