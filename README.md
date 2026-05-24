@@ -16,4 +16,4 @@ https://lojain-sabbah.github.io/web-dev-practice/
 
 ## Note
 This is just the beginning more improvements coming 
-as I progress through the remaining courses. 
+as I progress through the remaining courses. 🌱
