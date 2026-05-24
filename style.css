@@ -1,71 +1,103 @@
 body {
     font-family: Arial, sans-serif;
-    background-color:#e8f0e0;
+    background-color: #e8f0e0;
     margin: 0;
     padding: 0;
 }
 
 header {
     background-color: #2d4a1e;
-    color: rgb(254, 254, 254);
+    color: white;
     text-align: center;
     padding: 30px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
-/* اسمك أكبر */
 header h1 {
     font-size: 42px;
     font-weight: bold;
-} 
+}
 
-/* Software Engineering Student أكبر وأغمق */
 header p {
     font-size: 22px;
     font-weight: bold;
-    color: rgb(255, 253, 253);
+    color: #c8e6c0;
 }
 
 section {
-    background-color: #4e683f;
-    color: rgb(255, 255, 255);
+    background-color: #3d6128;
+    color: rgb(255, 252, 252);
     margin: 20px;
     padding: 20px;
-    width: fit-content;
     border-radius: 20px;
     transition: background-color 0.3s ease;
 }
 
 section:hover {
-    background-color: #78a87a;
+    background-color: #2d4a1e;
 }
 
-/* صورة الدورة */
-img {
-    width: 80%;
-    border-radius: 12px;
-    margin-top: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+#skills {
+    width: 200px;
 }
+
+#courses {
+    width: auto;
+}
+
+#note {
+    width: auto;
+}
+
 p {
     font-size: 18px;
     font-weight: bold;
 }
-#skills {
-    width: 300px; /* غيريه حسب ذوقك */
+
+.course-images {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    flex-wrap: wrap;
 }
-#courses {
-    width: auto;
+
+.course-card {
+    background-color: transparent;
+    padding: 10px;
+    width: 45%;
 }
+
+.course-card img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.course-card p {
+    text-align: center;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 footer {
     background-color: #1a2d12;
     text-align: center;
     padding: 15px;
 }
 
-/* GitHub أكبر وأغمق */
 footer p {
     font-size: 20px;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: #c8e6c0;
+}
+
+footer a {
+    color: #a9f058;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
